@@ -1,0 +1,7 @@
+@mixin shadow($horizontal, $vertical, $blur,  $alpha) {
+    box-shadow: $horizontal +px $vertical +px $blur +px -3px rgba(0,0,0, $alpha);
+
+    &:hover {
+        box-shadow: #{$horizontal * 1.2} +px #{$vertical * 1.5} +px #{$blur * 1.5} +px rgba(0,0,0, $alpha);
+    }
+}
