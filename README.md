@@ -4,7 +4,8 @@ Pure **CSS/SCSS Drop Shadows** library. Easy and fun to use, No need for JS.
 
 ### Demo
 
-Working on it!
+![](/dropper.gif)
+
 
 ### Installation
 
