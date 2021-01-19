@@ -9,7 +9,9 @@ Working on it!
 ### Installation
 
 **Manually:**
+
 Download `dropper.css` from this repo and add it to your code. e.g.
+
 ```html
 <link rel="stylesheet" href="style/dropper.css">
 ```
