@@ -76,3 +76,157 @@
 		}
 	}
 }
+
+.dropper-left {
+	&-light {
+		&-close {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(10, 5, 15, 0.08);
+		}
+		&-medium {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(10, 8, 13, 0.08);
+		}
+		&-far {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(10, 12, 15, 0.08);
+		}
+		&-far2x {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(10, 15, 18, 0.08);
+		}
+	}
+
+	&-regular {
+		&-close {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(12, 7, 17, 0.12);
+		}
+		&-medium {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(12, 11, 20, 0.12);
+		}
+		&-far {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(12, 15, 24, 0.12);
+		}
+		&-far2x {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(12, 17, 27, 0.12);
+		}
+	}
+	&-semi {
+		&-close {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 7, 17, 0.17);
+		}
+		&-medium {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 11, 20, 0.17);
+		}
+		&-far {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 15, 24, 0.17);
+		}
+		&-far2x {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 17, 27, 0.17);
+		}
+	}
+
+	&-bold {
+		&-close {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 7, 17, 0.24);
+		}
+		&-medium {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 11, 20, 0.24);
+		}
+		&-far {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 15, 24, 0.24);
+		}
+		&-far2x {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(14, 17, 27, 0.24);
+		}
+	}
+}
+
+.dropper-right {
+	&-light {
+		&-close {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-10, 5, 15, 0.08);
+		}
+		&-medium {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-10, 8, 13, 0.08);
+		}
+		&-far {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-10, 12, 15, 0.08);
+		}
+		&-far2x {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-10, 15, 18, 0.08);
+		}
+	}
+
+	&-regular {
+		&-close {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-12, 7, 17, 0.12);
+		}
+		&-medium {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-12, 11, 20, 0.12);
+		}
+		&-far {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-12, 15, 24, 0.12);
+		}
+		&-far2x {
+			transition: box-shadow 0.4s ease-in-out;
+			@include shadow(-12, 17, 27, 0.12);
+		}
+	}
+	&-semi {
+		&-close {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 7, 17, 0.17);
+		}
+		&-medium {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 11, 20, 0.17);
+		}
+		&-far {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 15, 24, 0.17);
+		}
+		&-far2x {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 17, 27, 0.17);
+		}
+	}
+
+	&-bold {
+		&-close {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 7, 17, 0.24);
+		}
+		&-medium {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 11, 20, 0.24);
+		}
+		&-far {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 15, 24, 0.24);
+		}
+		&-far2x {
+			transition: box-shadow 0.6s ease-in-out;
+			@include shadow(-14, 17, 27, 0.24);
+		}
+	}
+}
