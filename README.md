@@ -52,4 +52,4 @@ Bold:
 
 ### Credit
 
-Made with love by [Menashe Bouhadana](https://codepen.io/menashebouhadana)
+Made with love by [Menashe Bouhadana](https://menashebouhadana.dev)
